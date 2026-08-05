@@ -1,0 +1,176 @@
+h1 {font-family: "Oswald", sans-serif; font-size: 64px; color: #333; margin-top: 
+    20px; display: flex; justify-content: center; text-transform: uppercase; letter-spacing: 10px;}
+.header-content{position: relative; display: flex;}
+.header-content h1{position: absolute; left: 50%; transform: translateX(-50%);}
+.header-content a{z-index: 10; top: 45px; right: 0; position: absolute; font-weight: 500; font-family: "Noto Sans JP",
+     sans-serif; font-size: 24px; color: #333; padding: 10px 10px; 
+     border-radius: 100px; border-color: #333; border-style: solid; border-width:
+       1px; transition: transform 0.1s ease; text-decoration: none; position: fixed; 
+       background-color: #FFFFFF; margin-right: 20px;}
+       .header-content a:hover{transform: scale(1.05);}
+.main-image {width: 100%; height: auto; margin-top: 160px;}
+.title-p{top: 100px; font-family: "Noto Sans JP", sans-serif; font-size: 27px; 
+    color:#000000; text-align: center; width: 100%; font-weight: bold;
+    letter-spacing: 5px;}
+.hero{position: relative; width: 100%;}
+.oval{position: absolute;
+  top: 50%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 250px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+h2 {font-family: "Noto Sans JP", sans-serif; font-size: 48px; color: #000;
+margin-top: 30px; display: flex; justify-content: center; letter-spacing: 5px; font-weight: bold;
+}
+h3{font-family: "Noto Sans JP", sans-serif; font-size: 30px; color: #000;
+margin-top: 20px; display: flex; justify-content: center; letter-spacing: 5px; font-weight: regular;}
+ul{justify-content: center; display: flex; margin-top: 20px; background-color: #42DAC8;
+    height:70px; align-items: center; border: 1px solid #000; padding: 10px 0;}
+li{justify-content: space-between; display: flex; margin-right: 20px; 
+    font-family: "Noto Sans JP", sans-serif; font-size: 24px; color: #000;
+}   
+.gym-pics{display: flex; justify-content: center; margin-top: 20px; justify-content: space-between; padding: 0 20px;}
+.A{display: flex; justify-content: center; font-family: "Noto Sans JP", sans-serif; 
+    font-size: 30px; margin-top: 20px; font-weight: regular; letter-spacing: 2px;}
+.machine-small{display: flex; justify-content: center; gap: 210px; border: 1px solid #000; border-radius: 100px;
+     padding: 10px 10px; transition: transform 0.3s ease;
+      background-color: #42DAC8; margin-top: 20px; width: 60%; margin: auto;}
+.machines{display: flex; justify-content: center;
+    gap: 200px; margin: 20px; padding: 0 70px; letter-spacing: 2px;}
+.detail-a{display: flex; justify-content: center;  font-family: "Noto Sans JP", sans-serif;
+     font-size: 24px; font-weight: 400; border:#000 solid 1px;
+      border-radius: 100px; padding: 10px 10px; transition: transform 0.3s ease; background-color: #42DAC8; 
+      width: 100px; text-align: center; text-decoration: none; color: #000;}
+.detail-a:hover{transform: scale(1.05);}
+.name{margin-left: 80px; text-align: center; font-family: "Noto Sans JP", sans-serif;
+     font-size: 24px; color: #000;
+    margin-top: 20px; letter-spacing: 2px;}
+.detail{display: flex; justify-content: center; margin-top: 20px;}
+.flow{display: flex; justify-content: center; 
+    border: 1px solid #000; border-radius: 100px; padding: 10px 10px; transition:
+     transform 0.3s ease; background-color: #42DAC8; text-decoration: none; color: 
+     #000; width: 50%; text-align: center; margin: 40px auto;}
+.flow1{display: flex; justify-content: center;
+    border: 1px solid #000; border-radius: 100px; padding: 10px 10px; transition:
+     transform 0.3s ease; background-color: #42DAC8; text-decoration: none; color:
+      #000; width: 50%; text-align: center; margin: 40px auto;}
+.arrow{
+    width: 40px;
+    height: 60px;
+    margin: 0px auto;
+    background-color: #333;
+    clip-path: polygon(35% 0, 65% 0, 65% 55%, 100% 55%, 50% 100%, 0 55%, 35% 55%);
+}
+.info-details{flex: 1;
+    margin: 0; margin-left: 30px;
+    text-align: left;}
+.info{width: 200px;
+    margin: 0;
+    text-align: left; justify-content: flex-start; margin-left: 100px;
+}
+.time{display: flex;
+    width: 70%;
+    margin: 20px auto;
+    align-items: flex-start; align-items: center;
+}
+.address{display: flex;
+    width: 70%;
+    margin: 20px auto;
+    align-items: flex-start; align-items: center;
+}
+.number{display: flex;
+    width: 70%;
+    margin: 20px auto;
+    align-items: flex-start; align-items: center;
+}
+.guide{display: flex;
+    width: 70%;
+    margin: 20px auto;
+    align-items: flex-start; align-items: center;
+}
+.kome{justify-content: center; display: flex; align-items: center; 
+    text-align: center; width: 80%; margin: auto;}
+.intro{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.personal-trainers{display: flex; justify-content: space-around;}
+.trainer-pic{width: 300px;}
+.questions-faq{position: relative; display: flex; flex-direction: column; align-items: center;}
+.Q&A{position: absolute; left: 200px;}
+.faq{margin-bottom: 50px; margin-left: 100px;}
+.question-p{width: 300px; text-align: left;}
+nav{display: flex; justify-content: center; gap: 20px; 
+    align-items: center; margin-top: 20px; margin-bottom: 20px;}
+details{cursor: pointer;}
+.join-item{align-items: center;}
+.join{left: 200px;}
+.join-div{display: flex; justify-content: center;}
+.v{color: red; font-weight: bold;}
+.join-text{text-align: center;}
+.join-order{display: flex; flex-direction: column; gap: 10px; margin-top: 20px; 
+    justify-content: center;
+    align-items: center; }
+.join1{display: flex; justify-content: center; gap: 20px; margin-top: 20px; margin-right: 450px;}
+.join-imp{border: 1px solid #000; padding: 20px; margin-top: 20px;
+    width: 50%; text-align: center; border-radius: 10px; background-color: #c5c1e0;
+     display: flex;
+     justify-content: center; margin: auto; text-align: center; flex-direction: column;
+      margin-bottom: 20px;}
+.form{display: flex; flex-direction: column; 
+    margin-top: 90px; justify-content: center; font-weight: bold; font-family: 
+    "Noto Sans JP", sans-serif; font-size: 24px; gap: 20px;
+    align-items: center; border: 1px solid #000; padding: 20px; width: 50%; 
+    border-radius: 10px; background-color: #f5f2f0; margin: auto;}
+li{list-style-type: decimal; 
+    margin-left: 20px;  display:list-item;}
+.machine-list{display: flex; justify-content: center;  padding: 0 90px; gap: 90px;
+    margin-top: 20px; flex-wrap: wrap; text-align: center; margin-bottom: 40px;}
+.machine-pics{display: flex; justify-content: center; gap: 20px; margin-top: 40px; 
+    text-align: center; margin-bottom: 70px;}
+.name-of-machine{gap:80px;}
+.question-item{display: flex; justify-content: center; gap: 20px; margin-top: 20px;
+     font-weight: bold; text-align: center; font-family: "Noto Sans JP", sans-serif; font-size: 24px; color: #000;}
+.question-div{display: flex; flex-direction: column; 
+    justify-content: center; gap: 20px; margin-top: 20px; border: 1px solid #000; padding: 20px; width: 60%; 
+    border-radius: 10px; background-color: #9edd7a; margin: auto;}
+.question-answer{display: flex; justify-content: center; gap: 20px; margin-top: 20px;
+     font-family: "Noto Sans JP", sans-serif; font-size: 20px;}
+.inquiry{display: flex; justify-content: center; gap: 20px; margin-top: 20px;
+     font-family: "Noto Sans JP", sans-serif; font-size: 20px; font-weight: bold; color: #2bb41f;}
+.inquiry-form{display: flex; flex-direction: column; justify-content: center; 
+    text-align: center;
+    gap: 20px; margin-top: 20px; border: 1px solid #000; padding: 20px; width: 30%; 
+    border-radius: 10px; background-color: #a8aeb6; margin: auto; margin-top: 40px;}
+form{display: flex; flex-direction: column; justify-content: center; gap: 20px; margin-top: 20px;
+width: 40%; margin: auto;}
+.form-input{height: 40px; padding: 5px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc;}
+.form-textarea{height: 100px; padding: 5px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc;}
+.form-submit{height: 40px; padding: 5px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc;
+background-color: #42DAC8; cursor: pointer; transition: background-color 0.3s;}
+.inquiry-p{font-family: "Noto Sans JP", sans-serif;
+     font-size: 24px; color: #000; font-weight: bold;}
+.contact-info{display: flex; flex-direction: column; 
+    justify-content: center; margin: 20px auto; text-align: center;
+border: 1px solid #000; padding: 20px; width: 30%;}
+.store-p{border: 1px solid #000;padding-bottom: 40px; width: 70%; text-align: center; 
+    border-radius: 10px; background-color: #f5f2f0; margin: auto;
+}
+html{scroll-behavior: smooth;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
